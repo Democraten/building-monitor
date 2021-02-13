@@ -1,0 +1,38 @@
+.header
+    position: sticky
+    top: 0
+    background-color: #fff
+    &_content
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &_logo
+            display: flex
+            align-items: center
+            padding: 26px 31px
+            &__img
+                width: 30px
+                height: 44px
+                margin-right: 8px
+            &__title
+                font-weight: normal
+                font-size: 22px
+                line-height: 27px
+                text-transform: uppercase
+        &_nav
+            display: flex
+            align-items: center
+            padding: 31px
+            &__link
+                color: $secondary
+                font-size: 16px
+                line-height: 19px
+                margin-right: 22px
+                &:last-child
+                    margin-right: 0
+                &-active
+                    color: $link_selected
+            &__button
+                padding: 9px 20px
+                font-size: 15px
+                line-height: 16px

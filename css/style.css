@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Inter';
+  src: local("Inter Regular"), local("Inter-Regular"), url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff"), url("../fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+  color: #212B31;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: #212B31;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #036FC7;
+}
+
+.solid-button {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+  background-color: #212B31;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  padding: 13px 25px;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.header_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_content_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 26px 31px;
+}
+
+.header_content_logo__img {
+  width: 30px;
+  height: 44px;
+  margin-right: 8px;
+}
+
+.header_content_logo__title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.header_content_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 31px;
+}
+
+.header_content_nav__link {
+  color: #72787D;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 22px;
+}
+
+.header_content_nav__link:last-child {
+  margin-right: 0;
+}
+
+.header_content_nav__link-active {
+  color: #036FC7;
+}
+
+.header_content_nav__button {
+  padding: 9px 20px;
+  font-size: 15px;
+  line-height: 16px;
+}
+/*# sourceMappingURL=style.css.map */
