@@ -16,7 +16,7 @@ body {
   max-width: 1060px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -63,6 +63,10 @@ img {
 .button-light:hover {
   background-color: #212B31;
   color: #DADEDF;
+}
+
+.text-marked {
+  background: url("../img/mark.png") repeat-x 0 12px;
 }
 
 .header {
@@ -157,6 +161,7 @@ img {
   font-size: 48px;
   line-height: 64px;
   text-align: center;
+  font-weight: normal;
 }
 
 .hero_buttons {
@@ -166,5 +171,105 @@ img {
 
 .hero_buttons__button:first-child {
   margin-right: 16px;
+}
+
+.advantages {
+  margin: 144px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-betweens;
+      -ms-flex-pack: space-betweens;
+          justify-content: space-betweens;
+}
+
+.advantages_item {
+  max-width: 325px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.advantages_item__icon {
+  width: 48px;
+  height: 48px;
+}
+
+.advantages_item__title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.advantages_item__description {
+  color: #72787D;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.article {
+  margin-bottom: 70px;
+}
+
+.article_description__title {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: normal;
+}
+
+.article_description__text {
+  margin-top: 16px;
+  margin-bottom: 35px;
+  color: #72787D;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.article_description__text-marked {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.article-vertical {
+  text-align: center;
+}
+
+.article-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title-alone {
+  max-width: 781px;
+  margin: 100px auto;
+}
+
+.title-alone__text {
+  font-weight: normal;
+  text-align: center;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.companies {
+  padding: 56px 0;
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid #EEF2F3;
+  border-bottom: 1px solid #EEF2F3;
+}
+
+.companies__item {
+  max-width: 180px;
+  margin-right: 40px;
 }
 /*# sourceMappingURL=style.css.map */
