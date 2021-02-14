@@ -1,0 +1,74 @@
+.abilities
+    text-align: center
+    margin-bottom: 120px
+    &__title
+        font-size: 32px
+        line-height: 48px
+        font-weight: normal
+        position: relative
+        width: fit-content
+        margin: auto
+    &__description
+        margin-top: 21px
+        margin-bottom: 42px
+        font-size: 20px
+        line-height: 32px
+        color: $secondary
+    &_grid
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(335px, 1fr))
+        gap: 10px
+        margin-bottom: 22px
+        &_item
+            display: flex
+            text-align: left
+            margin-right: 10px
+            margin-bottom: 20px
+            &__icon
+                width: 48px
+                height: 48px
+                margin-right: 16px
+            &_description
+                &__title
+                    font-weight: normal
+                    font-size: 18px
+                    line-height: 24px
+                    margin-bottom: 11px
+                &__text
+                    font-weight: normal
+                    font-size: 16px
+                    line-height: 24px
+                    color: $secondary
+    &_flexbox
+        display: flex
+        justify-content: center
+        margin-bottom: 50px
+        &_item
+            flex-direction: column
+            align-items: center
+            text-align: center
+            &_description
+                &__title
+                    margin-top: 19px
+                    margin-bottom: 11px
+    &__span
+        font-size: 20px
+        line-height: 32px
+        color: $secondary
+    &_info
+        display: flex
+        align-items: center
+        justify-content: space-between
+        border-radius: 5px
+        padding: 40px
+        background-color: #F6F8F9
+        &_description
+            display: flex
+            align-items: center
+            &__text
+                font-size: 18px
+                line-height: 32px
+            &__icon
+                width: 40px
+                height: 40px
+                margin-right: 24px
