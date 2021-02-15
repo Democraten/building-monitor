@@ -543,4 +543,241 @@ img {
   max-width: 618px;
   margin-bottom: 150px;
 }
+
+.howtowork {
+  margin-top: 140px;
+  margin-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.howtowork_description {
+  min-width: 462px;
+}
+
+.howtowork_description__title {
+  margin-bottom: 21px;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.howtowork_description__text {
+  margin-bottom: 61px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #72787D;
+}
+
+.howtowork_description__image {
+  max-width: 80%;
+}
+
+.howtowork_items_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin-bottom: 30px;
+}
+
+.howtowork_items_item__number {
+  margin-right: 32px;
+  padding: 11px 16px;
+  text-align: center;
+  border: 1px solid #DADEDF;
+}
+
+.howtowork_items_item_description__title {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.howtowork_items_item_description__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787D;
+}
+
+.howtowork_items_buttons__button {
+  margin-right: 16px;
+}
+
+.whyus {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: 5vw;
+  text-align: center;
+}
+
+.whyus__title {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.whyus__text {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.whyus_wrapper {
+  margin-top: 55px;
+  margin-bottom: 86px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  text-align: left;
+}
+
+.whyus_wrapper_items {
+  margin-right: 50px;
+  min-width: 458px;
+}
+
+.whyus_wrapper_items_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.whyus_wrapper_items_item__icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.whyus_wrapper_items_item_description__title {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.whyus_wrapper_items_item_description__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787D;
+}
+
+.whyus_wrapper_quote {
+  background-color: #F6F8F9;
+  border-radius: 5px;
+}
+
+.whyus_wrapper_quote__text {
+  padding: 60px 87px;
+  padding-bottom: 28px;
+  font-size: 30px;
+  line-height: 48px;
+  position: relative;
+}
+
+.whyus_wrapper_quote__text::before {
+  content: url("../img/whyus/quote.png");
+  position: absolute;
+  left: 45px;
+  top: 45px;
+}
+
+.whyus_wrapper_quote_speaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 87px;
+  padding-bottom: 60px;
+}
+
+.whyus_wrapper_quote_speaker__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 8px;
+}
+
+.whyus_wrapper_quote_speaker_detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.whyus_wrapper_quote_speaker_detail__name {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.whyus_wrapper_quote_speaker_detail__post {
+  font-size: 16px;
+  line-height: 19px;
+  color: #72787D;
+}
+
+.whyus_achives {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 149px;
+}
+
+.whyus_achives_item {
+  margin-right: 119px;
+  margin-top: 41px;
+  width: 170px;
+}
+
+.whyus_achives_item__description {
+  font-size: 16px;
+  line-height: 19px;
+  color: #72787D;
+  display: block;
+  margin: auto;
+  margin-top: 32px;
+  max-width: 135px;
+}
+
+.banner {
+  background: url("../img/banner.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 117px 38px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.banner__text {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 54px;
+}
+
+.banner_buttons__button {
+  margin-right: 16px;
+}
 /*# sourceMappingURL=style.css.map */
