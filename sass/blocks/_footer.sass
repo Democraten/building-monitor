@@ -1,0 +1,57 @@
+body
+    display: flex
+    flex-direction: column
+    min-height: 100vh
+.main
+    flex: 1 0 auto
+
+.footer
+    flex: 0 0 auto
+    &_columns
+        margin-bottom: 160px
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        &_item
+            &__title
+                margin-bottom: 22px
+                &-logo
+                    display: flex
+                    align-items: center
+                    margin-bottom: 22px
+                    &__icon
+                        width: 22px
+                        height: 33px
+                        margin-right: 8px
+                    &__text
+                        font-weight: normal
+                        font-size: 16px
+                        line-height: 19px
+                        text-transform: uppercase
+            &_list
+                list-style: none
+                padding: 0
+                &_item
+                    margin-bottom: 8px
+                    &__link
+                        color: $secondary
+                        font-size: 15px
+                        line-height: 24px
+                        &-info
+                            color: $secondary
+                            margin-bottom: 10px
+                        &-logo
+                            &__icon
+                                width: 24px
+                                height: 24px
+                    &:last-child
+                        margin-bottom: 20px
+    &_copyright
+        padding: 30px 0
+        border-top: 1px solid #DADEDF
+        display: flex
+        justify-content: space-between
+        align-items: center
+        color: $secondary
+        &__policy
+            color: $secondary
