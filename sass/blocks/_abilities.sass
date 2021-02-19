@@ -57,6 +57,7 @@
         &_description
             display: flex
             align-items: center
+            text-align: left
             &__text
                 font-size: 18px
                 line-height: 32px
@@ -64,3 +65,25 @@
                 width: 40px
                 height: 40px
                 margin-right: 24px
+
+@media screen and ( max-width: 900px)
+    .abilities
+        &_flexbox
+            flex-wrap: wrap
+            &_item
+                margin-bottom: 30px
+@media screen and ( max-width: 500px)
+    .abilities
+        &__title
+            margin: 0
+            text-align: left
+        &__description
+            text-align: left
+        &_info
+            flex-direction: column
+            &_description
+                flex-direction: column
+                &__text
+                    margin: 20px 0
+        &_grid
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))

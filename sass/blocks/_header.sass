@@ -7,6 +7,9 @@
         display: flex
         align-items: center
         justify-content: space-between
+        &_menu-button
+            display: none
+            cursor: pointer
         &_logo
             display: flex
             align-items: center
@@ -31,4 +34,49 @@
             &__button
                 padding: 9px 20px
                 font-size: 15px
-                line-height: 16px
+                line-height: 16px 
+@media screen and ( max-width: 1240px)
+    .header
+        &_content
+            flex-direction: column
+            &_logo
+                padding: 0
+                padding-top: 10px
+            &_nav
+                padding: 0
+                padding-bottom: 10px
+@media screen and ( max-width:  900px)
+    .header
+        &_content
+            &_nav
+                flex-direction: column
+                position: absolute
+                align-items: start
+                left: 0px
+                top: 60px
+                padding: 15px
+                padding-left: 25px
+                height: 100vh
+                background-color: #fff
+                transition: all 0.2s ease
+                transform: translateX(-100%)
+                &__link
+                    margin-bottom: 20px
+            &_logo
+                padding: 10px
+            &_menu-button
+                display: block
+                position: absolute
+                left: 20px
+                top: 15px
+                width: 30px
+                height: 30px
+@media screen and ( max-width: 400px)
+    .header
+        &_content
+            &_logo
+                margin-left: 50px
+    
+
+.menu-active
+    transform: translateX(0)

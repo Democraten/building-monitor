@@ -29,3 +29,18 @@
                     margin-bottom: 10px
                 &__text
                     color: $secondary
+
+@media screen and ( max-width: 1024px)
+    .howtowork
+        flex-direction: column
+        &_description
+            display: flex
+            flex-direction: column
+            &__image
+                align-self: center
+                margin-bottom: 30px
+                max-width: 500px
+@media screen and ( max-width: 500px)
+    .howtowork
+        &_description
+            min-width: auto

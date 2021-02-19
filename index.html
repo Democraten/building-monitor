@@ -10,12 +10,13 @@
 </head>
 <body>
     <header class="header">
-        <div class="header_content">
+        <div class="header_content container-big">
+            <img src="img/menu.svg" alt="menu" class="header_content_menu-button" id="menu-button">
             <a href="#" class="header_content_logo">
                 <img src="img/logo.svg" alt="logo" class="header_content_logo__img">
                 <h1 class="header_content_logo__title">СтройКонтроль</h1>
             </a>
-            <nav class="header_content_nav">
+            <nav class="header_content_nav" id="menu">
                 <a href="#" class="header_content_nav__link header_content_nav__link-active">Главная</a>
                 <a href="#" class="header_content_nav__link">О нас</a>
                 <a href="#" class="header_content_nav__link">Продукция</a>
@@ -69,7 +70,7 @@
                 <p class="article_description__text">Мы знаем всё о гордости от сияющего нового здания. Нам также известно всё о разочаровании от попыток завершить проект в срок и в рамках бюджета.</p>
                 <span class="article_description__text-marked"> <mark class="text-marked">Мы здесь, чтобы помочь.</mark></span>
             </div>
-            <img src="img/article/care.png" alt="care" class="article__img">
+            <img src="img/article/care.png" alt="care" class="article__img article-horizontal__img">
         </article>
         <div class="companies container">
             <img src="img/companies/1.png" alt="1" class="companies__item">
@@ -210,7 +211,7 @@
                 <button class="button button-light">Подробнее</button>
             </div>
         </section>
-        <div class="dark-section">
+        <div class="dark-section container-big">
             <article class="building">
                 <div class="building_description">
                     <h3 class="building_description__title">Создан для строительства</h3>
@@ -300,7 +301,7 @@
                 </div>
             </div> 
         </div>
-        <article class="whyus">
+        <article class="whyus container-big">
             <h3 class="whyus__title">Почему нужно выбрать нас?</h3>
             <p class="whyus__text">В строительной логистике всегда есть возможности для улучшения.</p>
             <div class="whyus_wrapper">
@@ -367,7 +368,7 @@
         <div class="banner container">
             <h2 class="banner__text">Готовы оптимизировать логистику доставки для вашего сложного проекта?</h2>
             <div class="banner_buttons">
-                <button class="button button-dark">Заказать демо</button>
+                <button class="button button-dark banner_buttons__button">Заказать демо</button>
                 <button class="button button-light-solid">Связаться с нами</button>
             </div>
         </div>
@@ -432,5 +433,6 @@
             <a href="#" class="footer_copyright__policy">Политика конфиденциальности</a>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

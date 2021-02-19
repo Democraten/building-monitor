@@ -41,11 +41,11 @@ body
                             color: $secondary
                             margin-bottom: 10px
                         &-logo
+                            display: block
+                            margin-top: 20px
                             &__icon
                                 width: 24px
                                 height: 24px
-                    &:last-child
-                        margin-bottom: 20px
     &_copyright
         padding: 30px 0
         border-top: 1px solid #DADEDF
@@ -55,3 +55,21 @@ body
         color: $secondary
         &__policy
             color: $secondary
+
+@media screen and ( max-width: 768px)
+    .footer
+        &_copyright
+            flex-direction: column-reverse
+            align-items: start
+            &__policy
+                margin-bottom: 8px
+@media screen and ( max-width: 350px)
+    .footer
+        &_columns
+            flex-direction: column
+            margin-bottom: 0
+            &_item
+                margin-top: 20px
+        &_copyright
+            &__copyright
+                text-align: center
